@@ -40,7 +40,7 @@ Ejemplos:
 
   ___
 
-  #edstr.sh
+  \#edstr.sh
   
   Herramienta pensada para ser un sustituto de sed , utilizando un oneliner perl.
   
@@ -60,18 +60,18 @@ Ejemplos:
 
   ./edstream foo bar archivo.txt     
   
-  # Sustituye 'foo' por 'bar' en archivo.txt con backup
+  \# Sustituye 'foo' por 'bar' en archivo.txt con backup
   cat archivo.txt | ./edstream foo bar
   
-  # Sustituye 'foo' por 'bar' en la salida del pipe
+  \# Sustituye 'foo' por 'bar' en la salida del pipe
   
 ./edstream '^\Q127.0.0.1\E' '# 127.0.0.1' hosts_file  
 
-# Añade comentario en la línea que comienza por localhost
+\# Añade comentario en la línea que comienza por localhost
 
 ---
 
-#grep-date.pl
+\#grep-date.pl
 
 Utiliza un oneliner perl para grepear líneas (nombres de fichero de un ls, por ejemplo) que contengan ocho dígitos. 
 
@@ -79,7 +79,7 @@ perl -ne 'print if /[0-9]{8}/'
 
 ---
 
-#grep-email.pl
+\#grep-email.pl
 
 Uso: grep-email.pl [archivo | -] o mediante una tubería
 
@@ -101,7 +101,7 @@ Ejemplos:
      
 ___
 
-#grep function.pl
+\#grep function.pl
 
 Lanza un oneliner perl que permite capturar nombres de funciones en un código determinado.
 Ejemplo:
@@ -110,7 +110,7 @@ Ejemplo:
 
 ___
 
-#grep-ip.pl
+\#grep-ip.pl
 
 Extrae ips de archivos.
 
@@ -122,7 +122,7 @@ Ejemplo 2: ./grep-ip.pl ips.txt
 
 ___
 
-#jumpscp.pl
+\#jumpscp.pl
 
 Uso: ./jumpscp.pl <proxy_user> <target_user> <target_host> <jump_server_index> <remote_file_path> <local_file_path>
 
@@ -157,7 +157,7 @@ Ejemplo:
 
 ___
 
-#lscount.pl
+\#lscount.pl
 
 Uso: ./lscount.sh [DIRECTORIO]
 
