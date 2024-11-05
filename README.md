@@ -17,19 +17,25 @@ Esta herramienta está pensada para analizar un fichero tabulado, identificando 
 Argumentos:
 
   <cadena>     La cadena a buscar en el texto.
+  
   [fichero]    (opcional) El fichero a analizar. Si no se proporciona, se espera entrada estándar (tubería).
+  
   [separador]  (opcional) El separador a usar. Por defecto es tabulador.
 
 Opciones:
 
   Puede recibir datos a través de una tubería, por ejemplo:
+  
     cat datos.txt | ./awk-fa.pl 'cadena1' '-' '[\^~|]'
 
 Ejemplos:
 
   ./awk-fa.pl 'cadena1' datos.txt                  # Busca 'cadena1' usando el separador por defecto.
+  
   ./awk-fa.pl 'cadena2' datos.txt '|'               # Busca 'cadena2' usando '|' como separador.
+  
   ./awk-fa.pl 'cadena1|cadena2' datos.txt           # Busca 'cadena1' o 'cadena2'.
+  
   ./awk-fa.pl 'cadena3' '-' '[\^~|]'               # Usa tubería y busca 'cadena3' con múltiples separadores.
 
   ___
@@ -45,16 +51,23 @@ Ejemplos:
      - Sustituye todas las ocurrencias de 'patrón' por 'reemplazo' en 'archivo'.
      - Genera un archivo de respaldo con el sufijo ~ (archivo.txt -> archivo.txt~).
 
-  2. Usar con redirección o pipe (sin backup):
+  3. Usar con redirección o pipe (sin backup):
      cat archivo.txt | ./edstream patrón reemplazo
      - Reemplaza todas las ocurrencias de 'patrón' por 'reemplazo' en el flujo de entrada.
      - No modifica ningún archivo, la salida es enviada a stdout.
 
 Ejemplos:
 
-  ./edstream foo bar archivo.txt     # Sustituye 'foo' por 'bar' en archivo.txt con backup
-  cat archivo.txt | ./edstream foo bar  # Sustituye 'foo' por 'bar' en la salida del pipe
-./edstream '^\Q127.0.0.1\E' '# 127.0.0.1' hosts_file  # Añade comentario en la línea que comienza por localhost
+  ./edstream foo bar archivo.txt     
+  
+  # Sustituye 'foo' por 'bar' en archivo.txt con backup
+  cat archivo.txt | ./edstream foo bar
+  
+  # Sustituye 'foo' por 'bar' en la salida del pipe
+  
+./edstream '^\Q127.0.0.1\E' '# 127.0.0.1' hosts_file  
+
+# Añade comentario en la línea que comienza por localhost
 
 ---
 
@@ -82,6 +95,7 @@ Ejemplos:
 
   1. Usar con entrada estándar (ej. pegar contenido en la terminal):
      echo 'test@example.com' | perl grep-email.pl -
+
   2. Usar con un archivo:
      perl grep-email.pl archivo.txt
      
@@ -101,7 +115,9 @@ ___
 Extrae ips de archivos.
 
 Uso: ./grep-ip.pl [archivo] o mediante una tubería
+
 Ejemplo 1: cat ips.txt | ./grep-ip.pl
+
 Ejemplo 2: ./grep-ip.pl ips.txt
 
 ___
@@ -117,10 +133,14 @@ Este script copia un archivo desde un servidor objetivo a tu máquina local a tr
 Parámetros:
 
   <proxy_user>      Usuario para el servidor de salto.
+  
   <target_user>     Usuario para el servidor objetivo.
+  
   <target_host>     Dirección del servidor objetivo.
+  
   <jump_server_index>  Índice del servidor de salto en la lista (1 a 5).
   <remote_file_path>  Ruta del archivo en el servidor objetivo que deseas copiar.
+  
   <local_file_path>   Ruta local donde deseas guardar el archivo.
 
 Lista de servidores de salto disponibles:
