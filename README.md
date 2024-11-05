@@ -61,6 +61,7 @@ Ejemplos:
 #grep-date.pl
 
 Utiliza un oneliner perl para grepear líneas (nombres de fichero de un ls, por ejemplo) que contengan ocho dígitos. 
+
 perl -ne 'print if /[0-9]{8}/'
 
 ---
