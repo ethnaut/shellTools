@@ -10,19 +10,23 @@ ___
 #awk-fa.pl
 
 Uso: awk-fa.pl <cadena> [fichero] [separador]
+
 awk field analizer analiza un fichero o entrada estándar y busca por una cadena dada, mostrando todos los campos de las líneas que hacen match.
 Esta herramienta está pensada para analizar un fichero tabulado, identificando sus campos para poder tratarlos después con awk.
 
 Argumentos:
+
   <cadena>     La cadena a buscar en el texto.
   [fichero]    (opcional) El fichero a analizar. Si no se proporciona, se espera entrada estándar (tubería).
   [separador]  (opcional) El separador a usar. Por defecto es tabulador.
 
 Opciones:
+
   Puede recibir datos a través de una tubería, por ejemplo:
     cat datos.txt | ./awk-fa.pl 'cadena1' '-' '[\^~|]'
 
 Ejemplos:
+
   ./awk-fa.pl 'cadena1' datos.txt                  # Busca 'cadena1' usando el separador por defecto.
   ./awk-fa.pl 'cadena2' datos.txt '|'               # Busca 'cadena2' usando '|' como separador.
   ./awk-fa.pl 'cadena1|cadena2' datos.txt           # Busca 'cadena1' o 'cadena2'.
@@ -35,6 +39,7 @@ Ejemplos:
   Herramienta pensada para ser un sustituto de sed , utilizando un oneliner perl.
   
   Uso:
+  
   1. Sustituir directamente en un archivo (con backup):
      ./edstream patrón reemplazo archivo
      - Sustituye todas las ocurrencias de 'patrón' por 'reemplazo' en 'archivo'.
