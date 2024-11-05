@@ -1,1 +1,1 @@
-A collection of shellscripts for Korn, Bash, and Zshell, along with examples of using regular expressions in grep, sed, awk and, of course, Perl.
+A collection of shellscripts made mostly in perl, for use in korn and Bash.
