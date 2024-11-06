@@ -146,9 +146,13 @@ Parámetros:
 Lista de servidores de salto disponibles:
 
   1: jump1.example.com
+  
   2: jump2.example.com
+  
   3: jump3.example.com
+  
   4: jump4.example.com
+  
   5: jump5.example.com
 
 Ejemplo:
