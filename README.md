@@ -9,7 +9,7 @@ Aunque los nombres de las herramientas intentan ser autoexplicativos, iré incor
 <image src="https://github.com/ethnaut/shellTools/blob/main/3-wise-men.jpg" alt="The Three wisemen of Code">
 
 ___ 
-[#awk-fa.pl}(https://github.com/ethnaut/shellTools/blob/main/awk-fa.pl)
+[#awk-fa.pl](https://github.com/ethnaut/shellTools/blob/main/awk-fa.pl)
 
 Uso: awk-fa.pl <cadena> [fichero] [separador]
 
