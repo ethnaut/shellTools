@@ -5,7 +5,7 @@ Colección de scripts para utilizar en entornos de Korn Shell, Bash o Zsh , hech
 He hecho la mayoría de herramientas en perl porque permite una portabilidad casi total entre entornos. Todos los scripts se han realizado sin módulos externos, para intentar garantizar su funcionamiento en cualquier situación.
 
 Aunque los nombres de las herramientas intentan ser autoexplicativos, iré incorporando en este documento una breve descripción de las utilidades.
-
+[[https://github.com/ethnaut/shellTools/blob/main/3-wise-men.jpg]]
 ___ 
 #awk-fa.pl
 
