@@ -179,3 +179,78 @@ Ejemplo:
 
 
 ___
+[#mmv.pl](https://github.com/ethnaut/shellTools/blob/main/mmv.pl)
+
+Uso:
+  mmv.pl '<patrón_origen>' '<patrón_destino>'
+
+Descripción:
+
+Recreación del comando mmv (multi-move) en Perl. Uso extensivo de expresiones regulares.
+
+Ejemplos:
+  Renombrar file{a..z}.txt a data{a..z}.txt:
+    ./mmv.pl 'file*.txt' 'data#1.txt'
+
+Ejemplos adicionales:
+
+1. Mover una selección de archivos a otro directorio:
+   Mueve todos los archivos .txt al subdirectorio 'backup':
+   ./mmv.pl '*.txt' 'backup/#1.txt'
+
+2. Cambiar el formato de fechas en los nombres de archivo:
+   Transforma archivos con fechas en formato mmddaaaa a aaaammdd.
+   Ejemplo: file_12042023.log -> file_20231204.log
+   ./mmv.pl '*_([0-9]{2})([0-9]{2})([0-9]{4}).log' '#1_#3#1#2.log'
+
+3. Añadir un prefijo a varios archivos:
+   Agrega el prefijo 'archived_' a todos los archivos .csv:
+   ./mmv.pl '*.csv' 'archived_#1.csv'
+
+4. Cambiar extensiones de archivo:
+   Convierte todos los archivos .jpeg a .jpg:
+   ./mmv.pl '*.jpeg' '#1.jpg'
+
+5. Reemplazar un segmento en los nombres de archivo:
+   Cambia 'January' por 'Jan' en los archivos como report_January.docx:
+   ./mmv.pl '*_January.docx' '#1_Jan.docx'
+
+6. Enumerar archivos:
+   Agrega un número consecutivo al final de los nombres de archivos .png:
+   Ejemplo: image.png -> image_1.png, image_2.png, etc.
+   ./mmv.pl '*.png' '#1_#2.png'
+
+Notas:
+- Recuerda crear los directorios de destino, como 'backup', antes de mover archivos.
+- Usa comillas simples para proteger los patrones de la shell.
+- Los patrones utilizan expresiones regulares de Perl.
+
+Notas sobre capturas y marcadores:
+
+1. Capturas en expresiones regulares:
+   En el patrón de origen, las capturas se definen con paréntesis `()`.
+   Ejemplo: En '*_([0-9]{2})([0-9]{2})([0-9]{4}).log':
+     - $1 captura el mes (dos primeros dígitos).
+     - $2 captura el día (siguientes dos dígitos).
+     - $3 captura el año (cuatro últimos dígitos).
+
+2. Uso de marcadores `#1`, `#2`, etc.:
+   En el patrón de destino, los marcadores `#1`, `#2`, etc., se reemplazan por los valores capturados en el patrón de origen.
+   Ejemplo:
+     ./mmv.pl '*_([0-9]{2})([0-9]{2})([0-9]{4}).log' '#1_#3#1#2.log'
+     Para el archivo `file_12042023.log`, el nuevo nombre será `file_20231204.log`.
+
+3. Relación entre `*` y capturas:
+   Cada `*` en el patrón de origen se convierte en una captura `(.*)`, accesible como $1, $2, etc.
+   Ejemplo:
+     ./mmv.pl 'file*.txt' 'data#1.txt'
+     Para `file123.txt`, el `*` captura `123` y `#1` lo inserta en el nuevo nombre: `data123.txt`.
+
+4. Consideraciones:
+   - Hasta 9 capturas disponibles ($1 a $9).
+   - Si un marcador como `#3` no tiene una captura correspondiente, será reemplazado por una cadena vacía.
+   - Diseña los patrones cuidadosamente para evitar errores.
+
+
+
+___
