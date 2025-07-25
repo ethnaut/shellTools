@@ -1,6 +1,6 @@
-A collection of shellscripts made mostly in perl, for use in korn Bash and zsh.
+## A collection of shellscripts made mostly in perl, for use in korn Bash and zsh.
 
-Colección de scripts para utilizar en entornos de Korn Shell, Bash o Zsh , hechos principalmente en perl.
+## Colección de scripts para utilizar en entornos de Korn Shell, Bash o Zsh , hechos principalmente en perl.
 
 He hecho la mayoría de herramientas en perl porque permite una portabilidad casi total entre entornos. Todos los scripts se han realizado sin módulos externos, para intentar garantizar su funcionamiento en cualquier situación.
 
@@ -251,6 +251,25 @@ Notas sobre capturas y marcadores:
    - Si un marcador como `#3` no tiene una captura correspondiente, será reemplazado por una cadena vacía.
    - Diseña los patrones cuidadosamente para evitar errores.
 
+___
 
+## Perl Games
+
+Todo el mundo conoce el poder místico de las perlas, símbolos de sabiduría y transformación en las tradiciones esotéricas. En este apartado, exploraremos su simbolismo a través de **juegos basados en scripting perl inspirados en grandes maestros del Ocultismo y la magia ceremonial** ; Si quieres pasar un rato con [Agripa](https://es.wikipedia.org/wiki/Enrique_Cornelio_Agripa_de_Nettesheim), [Giordano Bruno](https://es.wikipedia.org/wiki/Giordano_Bruno) o Eliphas levi](https://es.wikipedia.org/wiki/Eliphas_L%C3%A9vi), éste es tu sitio.
+
+<img src="https://github.com/ethnaut/shellTools/blob/main/RWS_Tarot_01_Magician.jpg" 
+     alt="The Magician" 
+     style="width: 25%; height: auto;">
 
 ___
+[tarot.pl](https://github.com/ethnaut/shellTools/blob/main/tarot.pl)
+Échate unas tiradas al [Tarot](https://www.youtube.com/watch?v=Oj8B6mKFST0). Distintos modelos de tirada
+
+___
+[tiradas_bruno.pl](https://github.com/ethnaut/shellTools/blob/main/tiradas_bruno.pl)
+[Usa las ruedas combinatorias](https://www.youtube.com/watch?v=P1o93J9fBrs) de Giordano
+
+___
+___
+
+
