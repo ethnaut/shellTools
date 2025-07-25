@@ -255,7 +255,7 @@ ___
 
 ## Perl Games
 
-Todo el mundo conoce el poder místico de las perlas, símbolos de sabiduría y transformación en las tradiciones esotéricas. En este apartado, exploraremos su simbolismo a través de **juegos basados en scripting perl inspirados en grandes maestros del Ocultismo y la magia ceremonial** ; Si quieres pasar un rato con [Agripa](https://es.wikipedia.org/wiki/Enrique_Cornelio_Agripa_de_Nettesheim), [Giordano Bruno](https://es.wikipedia.org/wiki/Giordano_Bruno) o Eliphas levi](https://es.wikipedia.org/wiki/Eliphas_L%C3%A9vi), éste es tu sitio.
+Todo el mundo conoce el poder místico de las perlas, símbolos de sabiduría y transformación en las tradiciones esotéricas. En este apartado, exploraremos su simbolismo a través de **juegos basados en scripting perl inspirados en grandes maestros del Ocultismo y la magia ceremonial** ; Si quieres pasar un rato con [Agripa](https://es.wikipedia.org/wiki/Enrique_Cornelio_Agripa_de_Nettesheim), [Giordano Bruno](https://es.wikipedia.org/wiki/Giordano_Bruno) o [Eliphas levi](https://es.wikipedia.org/wiki/Eliphas_L%C3%A9vi), éste es tu sitio.
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/RWS_Tarot_01_Magician.jpg" 
      alt="The Magician" 
