@@ -10,7 +10,7 @@ my @sigilla = qw(
   A B C D E F G H I K L M N O P Q R S T V X Y Z & Ͻ Ͻ̅ Ͻ̿ Ʒ Ʒ̅ Ʒ̿
 );
 
-# Datos: MITO, FORMA, AGENTE, DESTINO, INFLUENCIA
+# Datos simbólicos
 my @mito = qw(
   Dafne Narciso Aracne Acteón Ícaro Faetón Calisto Eco Licaón Níobe
   Filemón Baucis Progne Filomela Ceyx Alcíone Mirra Adonis Atalanta Hipómenes
@@ -46,20 +46,69 @@ my @cielo = (
   "Cauda Draconis", "Caput Draconis", "Estrella fija de Saturno", "Anima Mundi", "Eje ascendente", "Esfera de las estrellas fijas"
 );
 
-# Generar 5 índices aleatorios
-my @indices = map { int(rand(30)) } (1..5);
+# Explicación general
+sub intro_explicacion {
+  print "\n📖 Las Ruedas de Giordano Bruno\n";
+  print "Las ruedas combinatorias de Bruno generan una imagen simbólica compuesta por cinco elementos: \n";
+  print "- Un MITO que representa la base narrativa o arquetipo en juego.\n";
+  print "- Una FORMA que da cuerpo sensible o visible a la idea.\n";
+  print "- Un AGENTE DIVINO como fuerza que mueve o transforma.\n";
+  print "- Un DESTINO que muestra la dirección o sentido del símbolo.\n";
+  print "- Una INFLUENCIA CELESTE que tiñe el conjunto con un matiz cósmico.\n";
+  print "Estas ruedas no predicen: revelan el orden oculto de una experiencia simbólica actual.\n";
+}
 
-# Obtener letras sigilla
-my @letras = map { $sigilla[$_] } @indices;
+# Tirada simbólica
+sub tirar_giordano {
+  my @indices = map { int(rand(30)) } (1..5);
+  my @letras = map { $sigilla[$_] } @indices;
 
-# Mostrar tirada simbólica
-print "\n📜 Tirada: $letras[0]-$letras[1]-$letras[2]-$letras[3]-$letras[4]\n\n";
+  print "\n🔮 TIRADA SIMBÓLICA: $letras[0]-$letras[1]-$letras[2]-$letras[3]-$letras[4]\n\n";
 
-# Mostrar correspondencias
-print "🧩 Correspondencias:\n";
-printf "Mito              [%s] → %s\n", $letras[0], $mito[$indices[0]];
-printf "Forma             [%s] → %s\n", $letras[1], $forma[$indices[1]];
-printf "Agente divino     [%s] → %s\n", $letras[2], $agente[$indices[2]];
-printf "Destino simbólico [%s] → %s\n", $letras[3], $destino[$indices[3]];
-printf "Influencia celeste[%s] → %s\n", $letras[4], $cielo[$indices[4]];
+  print "📘 INTERPRETACIÓN:\n";
+  print "1. 🧙 Mito [$letras[0]] → $mito[$indices[0]]\n";
+  print "   Representa la historia o arquetipo central que rige la imagen.\n";
+
+  print "2. 🌿 Forma [$letras[1]] → $forma[$indices[1]]\n";
+  print "   La apariencia sensible que adopta el símbolo en tu imaginación.\n";
+
+  print "3. 👁️ Agente Divino [$letras[2]] → $agente[$indices[2]]\n";
+  print "   El poder o impulso que pone en marcha el símbolo.\n";
+
+  print "4. 🧭 Destino [$letras[3]] → $destino[$indices[3]]\n";
+  print "   El desenlace simbólico o transfiguración en juego.\n";
+
+  print "5. ✨ Influencia Celeste [$letras[4]] → $cielo[$indices[4]]\n";
+  print "   Energía astrológica que impregna la imagen con un matiz superior.\n";
+
+  # Descripción final de la imagen simbólica
+  print "\n🖼️ IMAGEN RESULTANTE:\n";
+  print "Imagina a $mito[$indices[0]] manifestado como $forma[$indices[1]],\n";
+  print "impulsado por la fuerza de $agente[$indices[2]],\n";
+  print "con el destino de $destino[$indices[3]],\n";
+  print "bajo la influencia de $cielo[$indices[4]].\n";
+  print "Esta es tu constelación simbólica actual.\n";
+}
+
+# Menú principal
+sub menu {
+  intro_explicacion();
+  while (1) {
+    print "\n===== MENÚ SIMBÓLICO DE GIORDANO BRUNO =====\n";
+    print "1. Hacer una tirada\n";
+    print "0. Salir\n";
+    print "Elige una opción: ";
+    chomp(my $opt = <STDIN>);
+    if ($opt eq '1') {
+      tirar_giordano();
+    } elsif ($opt eq '0') {
+      print "\n🌀 Que las ruedas giren en tu interior. Hasta pronto.\n";
+      last;
+    } else {
+      print "⚠️  Opción no válida. Intenta de nuevo.\n";
+    }
+  }
+}
+
+menu();
 
