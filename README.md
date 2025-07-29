@@ -263,13 +263,18 @@ Todo el mundo conoce el poder místico de las perlas, símbolos de sabiduría y 
 
 ___
 [tarot.pl](https://github.com/ethnaut/shellTools/blob/main/tarot.pl)
-Échate unas tiradas al [Tarot](https://www.youtube.com/watch?v=Oj8B6mKFST0). Distintos modelos de tirada
+Échate unas tiradas al [Tarot](https://www.youtube.com/watch?v=Oj8B6mKFST0). Varios tipos de tirada
 
 ___
 [tiradas_bruno.pl](https://github.com/ethnaut/shellTools/blob/main/tiradas_bruno.pl)
 Usa las [ruedas combinatorias](https://www.youtube.com/watch?v=P1o93J9fBrs) de Giordano
 
 ___
+[oraculo-runico.pl](https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.pl)
+Pregunta a las Runas . Varios tipos de tirada
+<img src="https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.png" 
+     alt="Oráculo Rúnico" 
+     style="width: 25%; height: auto;">
 ___
 
 
