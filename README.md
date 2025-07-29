@@ -266,6 +266,8 @@ Vaticinios, Introspección, Un salto al interior de tu psique.
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/RWS_Tarot_01_Magician.jpg" 
      alt="Vaticinios, Introspección, Un salto al interior de tu psique" 
+     style="width: 15%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/tarot-imagen.png" 
+     alt="Vaticinios, Introspección, Un salto al interior de tu psique" 
      style="width: 15%; height: auto;">
 ___
 [tiradas_bruno.pl](https://github.com/ethnaut/shellTools/blob/main/tiradas_bruno.pl)
