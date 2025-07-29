@@ -290,7 +290,7 @@ Lanza las runas, y escucha lo que te dicen.
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/runes-image.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
-     style="width: 50%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.png" 
+     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
      style="width: 50%; height: auto;">
 ___
