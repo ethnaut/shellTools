@@ -259,6 +259,7 @@ Todo el mundo conoce el poder místico de las perlas, símbolos de sabiduría y 
 
 ___
 [tarot.pl](https://github.com/ethnaut/shellTools/blob/main/tarot.pl)
+
 Échate unas tiradas al [Tarot](https://www.youtube.com/watch?v=Oj8B6mKFST0). Varios tipos de tirada.
 
 Vaticinios, Introspección, Un salto al interior de tu psique.
