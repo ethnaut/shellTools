@@ -262,19 +262,21 @@ ___
 Échate unas tiradas al [Tarot](https://www.youtube.com/watch?v=Oj8B6mKFST0). Varios tipos de tirada.
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/RWS_Tarot_01_Magician.jpg" 
-     alt="The Magician" 
+     alt="Vaticinios, Introspección, Un salto al interior de tu psique." 
      style="width: 25%; height: auto;">
 ___
 [tiradas_bruno.pl](https://github.com/ethnaut/shellTools/blob/main/tiradas_bruno.pl)
 Usa las [ruedas combinatorias](https://www.youtube.com/watch?v=P1o93J9fBrs) de Giordano
-
+<img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano.png" 
+     alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
+     style="width: 25%; height: auto;">
 ___
 [oraculo-runico.pl](https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.pl)
 Pregunta a las Runas . Varios tipos de tirada.
 
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.png" 
-     alt="Oráculo Rúnico" 
+     alt="Lanza las runas, y escucha lo que te dicen" 
      style="width: 25%; height: auto;">
 ___
 
