@@ -268,7 +268,7 @@ Vaticinios, Introspección, Un salto al interior de tu psique.
      alt="Vaticinios, Introspección, Un salto al interior de tu psique" 
      style="width: 15%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/tarot-imagen.png" 
      alt="Vaticinios, Introspección, Un salto al interior de tu psique" 
-     style="width: 15%; height: auto;">
+     style="width: 50%; height: auto;">
 ___
 [tiradas_bruno.pl](https://github.com/ethnaut/shellTools/blob/main/tiradas_bruno.pl)
 
@@ -278,10 +278,9 @@ Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano.png" 
      alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
-     style="width: 50%; height: auto;">
-<img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano2.png" 
+     style="width: 40%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano2.png" 
      alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
-     style="width: 50%; height: auto;">
+     style="width: 40%; height: auto;">
 ___
 [oraculo-runico.pl](https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.pl)
 
