@@ -280,7 +280,7 @@ Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae
      alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
      style="width: 40%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano2.png" 
      alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
-     style="width: 25%; height: auto;">
+     style="width: 35%; height: auto;">
 ___
 [oraculo-runico.pl](https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.pl)
 
