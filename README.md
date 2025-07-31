@@ -308,3 +308,35 @@ Funciona con cálculos astronómicos básicos, asigna mansión según posición 
 
 ___
 
+[inferno-run.pl](https://github.com/ethnaut/shellTools/blob/main/inferno-run.pl)
+
+🔥 Inferno Run 
+
+Un viaje dantesco a través de los 9 círculos del Infierno. 
+
+No hay combates. Solo dilemas.
+En cada círculo, una pregunta moral:
+¿Salvarías a un sabio pagano? ¿Perdonarías una mentira piadosa? ¿La ira puede ser justicia? 
+
+Responde: sí, no, no sé.
+Al final, tu patrón revelará tu destino:
+del limbo por tibio… al infierno por intransigente. 
+
+Hecho en Perl.
+Inspirado en Dante.
+Diseñado para hacerte pensar. 
+
+    "El que juzga, también es juzgado." 
+     
+
+<img src="https://github.com/ethnaut/shellTools/blob/main/inferno-run.png" 
+     alt="Lanza las runas, y escucha lo que te dicen" 
+     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/inferno-run1.png" 
+     alt="Desciende al Infierno para encontrarte a tí mismo" 
+     style="width: 50%; height: auto;">
+___
+
+___
+
+
+
