@@ -300,7 +300,7 @@ Calcula la mansión lunar actual (de 28 Siguiendo la tradición del [Picatrix](h
 
 Funciona con cálculos astronómicos básicos, asigna mansión según posición sideral lunar y ofrece salida clara para uso mágico y talismánico. Se ejecuta sin argumentos o con número de días para avanzar.
 
-<img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen2.png" 
+<img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen2.jpg" 
      alt="El propósito del Sabio" 
      style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen1.png" 
      alt="Escucha lo que te dicen las mansiones de la Luna" 
