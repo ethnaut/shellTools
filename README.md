@@ -278,7 +278,7 @@ Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano.png" 
      alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
-     style="width: 40%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano2.png" 
+     style="width: 45%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano2.png" 
      alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
      style="width: 40%; height: auto;">
 ___
@@ -290,9 +290,9 @@ Lanza las runas, y escucha lo que te dicen.
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/runes-image.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
-     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.png" 
+     style="width: 35%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
-     style="width: 50%; height: auto;">
+     style="width: 40%; height: auto;">
 ___
 [mansion-lunar.pl](https://github.com/ethnaut/shellTools/blob/main/mansion-lunar.pl)
 
@@ -302,9 +302,9 @@ Funciona con cálculos astronómicos básicos, asigna mansión según posición 
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen2.jpg" 
      alt="El propósito del Sabio" 
-     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen1.png" 
+     style="width: 35%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen1.png" 
      alt="Escucha lo que te dicen las mansiones de la Luna" 
-     style="width: 50%; height: auto;">
+     style="width: 40%; height: auto;">
 
 ___
 
