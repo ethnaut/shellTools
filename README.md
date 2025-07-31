@@ -268,7 +268,7 @@ Vaticinios, Introspección, Un salto al interior de tu psique.
      alt="Vaticinios, Introspección, Un salto al interior de tu psique" 
      style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/tarot-imagen.png" 
      alt="Vaticinios, Introspección, Un salto al interior de tu psique" 
-     style="width: 55%; height: auto;">
+     style="width: 50%; height: auto;">
 ___
 [tiradas_bruno.pl](https://github.com/ethnaut/shellTools/blob/main/tiradas_bruno.pl)
 
