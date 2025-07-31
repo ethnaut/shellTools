@@ -331,9 +331,9 @@ Diseñado para hacerte pensar.
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/inferno-run.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
-     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/inferno-run1.png" 
+     style="width: 40%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/inferno-run1.png" 
      alt="Desciende al Infierno para encontrarte a tí mismo" 
-     style="width: 50%; height: auto;">
+     style="width: 30%; height: auto;">
 ___
 
 ___
