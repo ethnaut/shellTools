@@ -302,7 +302,7 @@ Funciona con cálculos astronómicos básicos, asigna mansión según posición 
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen2.jpg" 
      alt="El propósito del Sabio" 
-     style="width: 35%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen1.png" 
+     style="width: 15%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen1.png" 
      alt="Escucha lo que te dicen las mansiones de la Luna" 
      style="width: 40%; height: auto;">
 
