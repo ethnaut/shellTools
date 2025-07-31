@@ -278,9 +278,9 @@ Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano.png" 
      alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
-     style="width: 45%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano2.png" 
+     style="width: 50%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/ruedas-giordano2.png" 
      alt="Gira las ruedas, y crea tu evocación, para usarla en tus Aedes Memoriae" 
-     style="width: 40%; height: auto;">
+     style="width: 35%; height: auto;">
 ___
 [oraculo-runico.pl](https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.pl)
 
@@ -290,7 +290,7 @@ Lanza las runas, y escucha lo que te dicen.
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/runes-image.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
-     style="width: 35%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.png" 
+     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/oraculo-runico.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
      style="width: 40%; height: auto;">
 ___
