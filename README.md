@@ -296,9 +296,15 @@ Lanza las runas, y escucha lo que te dicen.
 ___
 [mansion-lunar.pl](https://github.com/ethnaut/shellTools/blob/main/mansion-lunar.pl)
 
-Calcula la mansión lunar actual (de 28 Siguiendo la tradición del picatrix) para hoy o fecha + n días usando solo módulos internos. Muestra fecha UTC, posición lunar y solar, fase lunar, conjunciones simples y ficha con nombre, magia y talismán en UTF-8.
+Calcula la mansión lunar actual (de 28 Siguiendo la tradición del [Picatrix](https://es.wikipedia.org/wiki/Libro_de_Picatrix) ) para hoy o fecha + n días usando solo módulos internos. Muestra fecha UTC, posición lunar y solar, fase lunar, conjunciones simples y ficha con nombre, magia y talismán en UTF-8.
 
 Funciona con cálculos astronómicos básicos, asigna mansión según posición sideral lunar y ofrece salida clara para uso mágico y talismánico. Se ejecuta sin argumentos o con número de días para avanzar.
+
+<img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen2.png" 
+     alt="El propósito del Sabio" 
+     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/mansion-lunar-imagen1.png" 
+     alt="Escucha lo que te dicen las mansiones de la Luna" 
+     style="width: 50%; height: auto;">
 
 ___
 
