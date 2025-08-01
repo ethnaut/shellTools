@@ -335,7 +335,7 @@ Diseñado para hacerte pensar.
      alt="Desciende al Infierno para encontrarte a tí mismo" 
      style="width: 15%; height: auto;">
 ___
-[inferno-run.pl](https://github.com/ethnaut/shellTools/blob/main/inferno-run.pl)
+
 🔮 [alchemist.pl](https://github.com/ethnaut/shellTools/blob/main/alchemist.pl) – El [Ouroboros](https://es.wikipedia.org/wiki/Ur%C3%B3boro#En_la_alquimia) de [Paracelso](https://es.wikipedia.org/wiki/Paracelso)
 
 > *"Visita interiora terrae, rectificando invenies occultum lapidem."*  
