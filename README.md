@@ -348,9 +348,9 @@ Puedes correrlo también como **alchemist.pl -oraculo**
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen.jpg" 
      alt="Lanza las runas, y escucha lo que te dicen" 
-     style="width: 25%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen2.jpg" 
+     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen2.jpg" 
      alt="El Libro de la Piedra Oculta" 
-     style="width: 55%; height: auto;">
+     style="width: 60%; height: auto;">
 ___
 
 
