@@ -336,7 +336,7 @@ Diseñado para hacerte pensar.
      style="width: 15%; height: auto;">
 ___
 [inferno-run.pl](https://github.com/ethnaut/shellTools/blob/main/inferno-run.pl)
-# 🔮 [alchemist.pl](https://github.com/ethnaut/shellTools/blob/main/alchemist.pl) – El [Ouroboros](https://es.wikipedia.org/wiki/Ur%C3%B3boro#En_la_alquimia) de [Paracelso](https://es.wikipedia.org/wiki/Paracelso)
+🔮 [alchemist.pl](https://github.com/ethnaut/shellTools/blob/main/alchemist.pl) – El [Ouroboros](https://es.wikipedia.org/wiki/Ur%C3%B3boro#En_la_alquimia) de [Paracelso](https://es.wikipedia.org/wiki/Paracelso)
 
 > *"Visita interiora terrae, rectificando invenies occultum lapidem."*  
 > — *El Libro de la Piedra Oculta*
@@ -348,9 +348,9 @@ Puedes correrlo también como **alchemist.pl -oraculo**
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen.jpg" 
      alt="Lanza las runas, y escucha lo que te dicen" 
-     style="width: 55%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen2.jpg" 
+     style="width: 15%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen2.jpg" 
      alt="El Libro de la Piedra Oculta" 
-     style="width: 15%; height: auto;">
+     style="width: 55%; height: auto;">
 ___
 
 
