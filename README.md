@@ -335,7 +335,22 @@ Diseñado para hacerte pensar.
      alt="Desciende al Infierno para encontrarte a tí mismo" 
      style="width: 15%; height: auto;">
 ___
+[inferno-run.pl](https://github.com/ethnaut/shellTools/blob/main/inferno-run.pl)
+# 🔮 [alchemist.pl](https://github.com/ethnaut/shellTools/blob/main/alchemist.pl) – El [Ouroboros](https://es.wikipedia.org/wiki/Ur%C3%B3boro#En_la_alquimia) de [Paracelso](https://es.wikipedia.org/wiki/Paracelso)
 
+> *"Visita interiora terrae, rectificando invenies occultum lapidem."*  
+> — *El Libro de la Piedra Oculta*
+
+**alchemist.pl** es un juego de texto escrito en Perl que simula la **Magnum Opus alquímica**: la transformación de la materia corrompida en la **Piedra Filosofal**. Inspirado en [Paracelso](https://es.wikipedia.org/wiki/Paracelso), [John Dee](https://es.wikipedia.org/wiki/John_Dee), Giordano Bruno y la [tradición hermética renacentista](https://es.wikipedia.org/wiki/Magia_renacentista), este juego te sumerge en un laboratorio de sombras, fuego y secretos olvidados.
+
+Corre en tu terminal. No hay gráficos. Solo palabras, decisiones… y consecuencias.
+Puedes correrlo también como **alchemist.pl -oraculo**
+
+<img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen.jpg" 
+     alt="Lanza las runas, y escucha lo que te dicen" 
+     style="width: 55%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen2.jpg" 
+     alt="El Libro de la Piedra Oculta" 
+     style="width: 15%; height: auto;">
 ___
 
 
