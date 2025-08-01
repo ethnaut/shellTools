@@ -286,7 +286,7 @@ ___
 
 Pregunta a las Runas . Varios tipos de tirada.
 
-Lanza las runas, y escucha lo que te dicen.
+> *"Lanza las runas, y escucha lo que te dicen."*
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/runes-image.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
@@ -326,7 +326,7 @@ Hecho en Perl.
 Inspirado en Dante.
 Diseñado para hacerte pensar. 
 
-    "El que juzga, también es juzgado." 
+> *"El que juzga, también es juzgado."* 
      
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/inferno-run.png" 
