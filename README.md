@@ -344,6 +344,7 @@ ___
 **alchemist.pl** es un juego de texto escrito en Perl que simula la [Magnum Opus alquímica](https://es.wikipedia.org/wiki/Opus_magnum_(alquimia)): la transformación de la materia corrompida en la **Piedra Filosofal**. Inspirado en [Paracelso](https://es.wikipedia.org/wiki/Paracelso), [John Dee](https://es.wikipedia.org/wiki/John_Dee), Giordano Bruno y la [tradición hermética renacentista](https://es.wikipedia.org/wiki/Magia_renacentista), este juego te sumerge en un laboratorio de sombras, fuego y secretos olvidados.
 
 Corre en tu terminal. No hay gráficos. Solo palabras, decisiones… y consecuencias.
+
 Puedes correrlo también como **alchemist.pl -oraculo**
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen.jpg" 
