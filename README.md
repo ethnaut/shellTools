@@ -355,7 +355,7 @@ Puedes correrlo también como **alchemist.pl -oraculo**
 
 ___
 
-iching.pl
+[iching.pl](https://github.com/ethnaut/shellTools/blob/main/iching.pl) El [libro de los cambios](https://es.wikipedia.org/wiki/I_Ching)
 
 ☯️ I Ching Run
 
