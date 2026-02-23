@@ -377,7 +377,7 @@ Hecho en Perl.
 
 <img src="https://github.com/ethnaut/shellTools/blob/main/iching.png" 
      alt="Lanza las runas, y escucha lo que te dicen" 
-     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/iching2.png" 
+     style="width: 60%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/iching2.png" 
      alt="Consulta el oráculo de la milenrama y escucha el cambio" 
-     style="width: 60%; height: auto;">
+     style="width: 30%; height: auto;">
 
