@@ -359,25 +359,25 @@ ___
 
 ☯️ I Ching Run
 
-Una consulta directa al I Ching.
-No predice. Responde.
+Una consulta directa al I Ching no predice, responde.
 
 Lanzas monedas (o tallos).
 Emergen hexagramas.
 Cada línea habla de tu momento, no de tu futuro.
 
-No hay victoria ni derrota.
-Solo situación, cambio y actitud correcta.
+No hay victoria ni derrota, sólo situación, cambio y actitud correcta.
 
 Lee el dictamen.
 Observa las líneas mutantes.
 Decide tú.
 
 Hecho en Perl.
-Inspirado en la tradición china.
-Diseñado para pensar antes de actuar.
 
 “El sabio no fuerza el curso: lo reconoce.”
 
-<img src="https://github.com/ethnaut/shellTools/blob/main/iching.png" alt="Consulta el I Ching y escucha el cambio" style="width: 55%; height: auto;">
+<img src="https://github.com/ethnaut/shellTools/blob/main/iching.png" 
+     alt="Lanza las runas, y escucha lo que te dicen" 
+     style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/iching2.png" 
+     alt="Consulta el oráculo de la milenrama y escucha el cambio" 
+     style="width: 60%; height: auto;">
 
