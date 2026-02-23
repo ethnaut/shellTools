@@ -352,7 +352,32 @@ Puedes correrlo también como **alchemist.pl -oraculo**
      style="width: 20%; height: auto;"><img src="https://github.com/ethnaut/shellTools/blob/main/alchemist-imagen2.jpg" 
      alt="El Libro de la Piedra Oculta" 
      style="width: 60%; height: auto;">
+
 ___
 
+iching.pl
 
+☯️ I Ching Run
+
+Una consulta directa al I Ching.
+No predice. Responde.
+
+Lanzas monedas (o tallos).
+Emergen hexagramas.
+Cada línea habla de tu momento, no de tu futuro.
+
+No hay victoria ni derrota.
+Solo situación, cambio y actitud correcta.
+
+Lee el dictamen.
+Observa las líneas mutantes.
+Decide tú.
+
+Hecho en Perl.
+Inspirado en la tradición china.
+Diseñado para pensar antes de actuar.
+
+“El sabio no fuerza el curso: lo reconoce.”
+
+<img src="https://github.com/ethnaut/shellTools/blob/main/iching.png" alt="Consulta el I Ching y escucha el cambio" style="width: 55%; height: auto;">
 
