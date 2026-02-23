@@ -2,11 +2,10 @@
 use strict;
 use warnings;
 use utf8;
-use open ':std', ':encoding(UTF-8)';
-use List::Util qw(shuffle);
+binmode(STDOUT, ':utf8');
 
 # Configuración de caracteres UTF-8 para los hexagramas
-binmode(STDOUT, ':utf8');
+# Los caracteres de los hexagramas están codificados directamente en el script
 
 # Tabla completa de los 64 hexagramas
 my @hexagramas = (
@@ -174,11 +173,34 @@ sub buscar_por_numero {
 sub buscar_por_nombre {
     my $nombre = lc shift;
     foreach my $h (@hexagramas) {
-        if (lc($h->{nombre}) =~ /$nombre/) {
+        if (lc($h->{nombre}) =~ /\Q$nombre\E/) {
             return $h;
         }
     }
     return undef;
+}
+
+# Función para generar números aleatorios (implementación propia)
+sub mi_rand {
+    my $max = shift || 1;
+    # Usar el reloj del sistema como semilla simple
+    my $seed = time() ^ $$;
+    return int(($seed * rand()) % $max);
+}
+
+# Función para mezclar array (implementación propia - algoritmo Fisher-Yates)
+sub mezclar_array {
+    my $arr_ref = shift;
+    my @array = @$arr_ref;
+    my $n = scalar @array;
+    
+    for (my $i = $n - 1; $i > 0; $i--) {
+        my $j = int(rand($i + 1));
+        # Intercambiar
+        @array[$i, $j] = @array[$j, $i];
+    }
+    
+    return @array;
 }
 
 # Función para generar un hexagrama aleatorio (consulta)
@@ -187,7 +209,7 @@ sub consulta_iching {
     
     # Generar 6 líneas aleatorias (0 para yin, 1 para yang)
     my @lineas;
-    for (1..6) {
+    for (my $i = 0; $i < 6; $i++) {
         push @lineas, int(rand(2));
     }
     my $hexagrama_generado = join('', @lineas);
@@ -208,7 +230,10 @@ sub consulta_iching {
         mostrar_hexagrama($encontrado);
         
         # Generar también hexagrama complementario (cambiar todas las líneas)
-        my @complementarias = map { $_ ? 0 : 1 } @lineas;
+        my @complementarias;
+        foreach my $linea (@lineas) {
+            push @complementarias, $linea ? 0 : 1;
+        }
         my $hex_complementario = join('', @complementarias);
         
         foreach my $h (@hexagramas) {
@@ -237,7 +262,7 @@ sub mostrar_menu {
 
 # Función para mostrar hexagrama aleatorio
 sub hexagrama_aleatorio {
-    my @shuffled = shuffle @hexagramas;
+    my @shuffled = mezclar_array(\@hexagramas);
     print "\n=== HEXAGRAMA ALEATORIO ===\n";
     mostrar_hexagrama($shuffled[0]);
 }
@@ -255,22 +280,31 @@ while (1) {
         print "Introduce el número del hexagrama (1-64): ";
         my $num = <STDIN>;
         chomp $num;
-        my $h = buscar_por_numero($num);
-        if ($h) {
-            mostrar_hexagrama($h);
+        # Validar que sea un número
+        if ($num =~ /^\d+$/) {
+            my $h = buscar_por_numero($num);
+            if ($h) {
+                mostrar_hexagrama($h);
+            } else {
+                print "No se encontró el hexagrama número $num\n";
+            }
         } else {
-            print "No se encontró el hexagrama número $num\n";
+            print "Por favor, introduce un número válido\n";
         }
     }
     elsif ($opcion == 3) {
         print "Introduce parte del nombre: ";
         my $nombre = <STDIN>;
         chomp $nombre;
-        my $h = buscar_por_nombre($nombre);
-        if ($h) {
-            mostrar_hexagrama($h);
+        if ($nombre ne '') {
+            my $h = buscar_por_nombre($nombre);
+            if ($h) {
+                mostrar_hexagrama($h);
+            } else {
+                print "No se encontró ningún hexagrama con '$nombre'\n";
+            }
         } else {
-            print "No se encontró ningún hexagrama con '$nombre'\n";
+            print "Por favor, introduce un nombre válido\n";
         }
     }
     elsif ($opcion == 4) {
